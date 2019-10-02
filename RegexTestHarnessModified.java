@@ -19,7 +19,6 @@ public class RegexTestHarnessModified{
             Matcher mather = 
                 pattern.matcher(console.readLine("Enter input string to search: "));
             
-            
             boolean found = false;
             while(mather.find()){
                 console.format("I found the text" + 
